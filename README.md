@@ -19,5 +19,71 @@ I created this to share what I’ve learned about setting up Cisco networking de
 5) Identify the port number and connect via PuTTY
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/6be1f04809415c266433c282a4de8b35dcbcad64/IMG%202.png)
-   
+
+6) sh ip int br  to view the configurations
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%203.png)
+
+7) to allow any ip to go through the gateway 103.249.93.65
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%204.png)
+
+8) configuring sub int vlan 10 – 30
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%205.png)
+
+9)create pool for each vlan 
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%206.png)
+
+Vlan 10 gateway add 
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%207.png)
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%208.png)
+
+10) configure nat 
+
+#Int fa0/0 on router 
+
+#Ip nat outside 
+
+#Int fa0/1.10 - 30 
+
+# ip nat inside 
+
+11) configure acl
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%209.png)
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2010.png)
+
+12) next, switch console cable to switch2 
+
+Configure it as trunk 
+ 
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2011.png)
+
+13)
+ 
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2012.png)  
+
+14) create vlan with no shut command
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2013.png)  
+
+15) configure int of vlan
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2014.png)  
+
+16) test connectivity 
+
+Vlan 10 
+
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2015.png) 
+
+Vlan 20 
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2016.png) 
+
+Vlan 30 
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2017.png) 
 
