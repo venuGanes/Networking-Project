@@ -8,7 +8,7 @@ I created this to share what I’ve learned about setting up Cisco networking de
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/3b491b029588706dc9ac80887c4457f227f40637/IMG%201.png)
 
-1) connect router FA0/0 port to port 10 of switch 1 (ISP Router) connected to LAN 
+1) Connect router FA0/0 port to port 10 of switch 1 (ISP Router) connected to LAN 
 
 2) Connect fa0/1 of router to port 48 of Switch 2 (trunk) 
 
@@ -24,24 +24,25 @@ I created this to share what I’ve learned about setting up Cisco networking de
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%203.png)
 
-7) to allow any ip to go through the gateway 103.249.93.65
+7) to allow any IP to go through the gateway 103.249.93.65
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%204.png)
 
-8) configuring sub int vlan 10 – 30
+8) Configuring sub-int vlan 10 – 30
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%205.png)
 
-9)create pool for each vlan 
+9) Create pool for each vlan 
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%206.png)
 
 Vlan 10 gateway add 
+
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%207.png)
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%208.png)
 
-10) configure nat 
+10) Configure NAT 
 
 #Int fa0/0 on router 
 
@@ -51,13 +52,13 @@ Vlan 10 gateway add
 
 # ip nat inside 
 
-11) configure acl
+11) Configure ACL
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%209.png)
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2010.png)
 
-12) next, switch console cable to switch2 
+12) Next, switch console cable to switch2 
 
 Configure it as trunk 
  
@@ -71,7 +72,7 @@ Configure it as trunk
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2013.png)  
 
-15) configure int of vlan
+15) Configure int of vlan
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/9a526f10713bc6948757d19d101bf3a3db9007cc/IMG%2014.png)  
 
