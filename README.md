@@ -8,3 +8,13 @@ I created this to share what I’ve learned about setting up Cisco networking de
 
 ![Alt text](https://github.com/venuGanes/Networking-Project/blob/3b491b029588706dc9ac80887c4457f227f40637/IMG%201.png)
 
+1) connect router FA0/0 port to port 10 of switch 1 (ISP Router) connected to LAN 
+
+2) Connect fa0/1 of router to port 48 of Switch 2 (trunk) 
+
+3) fa 0/0 has been configured 103.249.93.68 255.255.255.248, gateway 103.249.93.65 
+
+4) Next, connect from router to laptop via console port 
+
+5) Identify the port number and connect via PuTTY 
+
