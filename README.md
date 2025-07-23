@@ -18,6 +18,6 @@ I created this to share what I’ve learned about setting up Cisco networking de
 
 5) Identify the port number and connect via PuTTY
 
-![Alt text](https://github.com/venuGanes/Networking-Project/blob/6be1f04809415c266433c282a4de8b35dcbcad64/IMG%202.png| width=100)
+![Alt text](https://github.com/venuGanes/Networking-Project/blob/6be1f04809415c266433c282a4de8b35dcbcad64/IMG%202.png)
    
 
